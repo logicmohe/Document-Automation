@@ -10,6 +10,8 @@ class Timer():
     # sleep for 25 mins
     # each counter represents 30 seconds
     total, counter = 50, 50 - min*2
+    if counter == 0:
+      counter == 50
     while counter:
       print('|', end='')
       for i in range(total-counter):
